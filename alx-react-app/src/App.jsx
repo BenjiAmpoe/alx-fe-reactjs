@@ -13,7 +13,7 @@ function App() {
       <WelcomeMessage />
 
       {/* Render UserProfile with props (name, age, bio) */}
-      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+      <UserProfile name="Benjamin" age="22" bio="Loves hiking and photographyLove to read my Bible and fellowship with the Holy Spirit" />
 
       <Footer />
     </>
