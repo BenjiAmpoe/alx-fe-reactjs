@@ -9,7 +9,6 @@ function App() {
       <div>
         <h1>Recipe Sharing App</h1>
         <Routes>
-          
           <Route
             path="/"
             element={
@@ -19,8 +18,6 @@ function App() {
               </>
             }
           />
-
-           
           <Route path="/recipe/:id" element={<RecipeDetailsWrapper />} />
         </Routes>
       </div>
@@ -28,7 +25,7 @@ function App() {
   );
 }
 
- 
+// Wrapper to get ID from URL
 import { useParams } from 'react-router-dom';
 const RecipeDetailsWrapper = () => {
   const { id } = useParams();
